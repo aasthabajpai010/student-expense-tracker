@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://student-expense-tracker-backend-neze.onrender.com/api",
+baseURL: import.meta.env.VITE_API_URL,
+
 
 });
 
